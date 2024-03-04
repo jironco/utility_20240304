@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "IBMPlexSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: url("../font/IBMPlexSansJP-100.woff2") format("woff2");
+}
+.IBMPlexSansJP-100 {
+  font-family: "IBMPlexSansJP", sans-serif;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "IBMPlexSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src: url("../font/IBMPlexSansJP-200.woff2") format("woff2");
+}
+.IBMPlexSansJP-200 {
+  font-family: "IBMPlexSansJP", sans-serif;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "IBMPlexSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url("../font/IBMPlexSansJP-300.woff2") format("woff2");
+}
+.IBMPlexSansJP-300 {
+  font-family: "IBMPlexSansJP", sans-serif;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "IBMPlexSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../font/IBMPlexSansJP-400.woff2") format("woff2");
+}
+.IBMPlexSansJP-400 {
+  font-family: "IBMPlexSansJP", sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "IBMPlexSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../font/IBMPlexSansJP-500.woff2") format("woff2");
+}
+.IBMPlexSansJP-500 {
+  font-family: "IBMPlexSansJP", sans-serif;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "IBMPlexSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("../font/IBMPlexSansJP-600.woff2") format("woff2");
+}
+.IBMPlexSansJP-600 {
+  font-family: "IBMPlexSansJP", sans-serif;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "IBMPlexSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../font/IBMPlexSansJP-700.woff2") format("woff2");
+}
+.IBMPlexSansJP-700 {
+  font-family: "IBMPlexSansJP", sans-serif;
+  font-weight: 700;
+}
+
+/*  */
+
+h3.IBMPlexSansJP {
+  font-size: clamp(2.4rem, 3.6vw, 4.8rem);
+  line-height: 1.6;
+  font-family: "IBMPlexSansJP", sans-serif;
+  font-weight: 700;
+}

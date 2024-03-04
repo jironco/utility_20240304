@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "ZenOldMincho";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../font/ZenOldMincho-400.woff2") format("woff2");
+}
+.ZenOldMincho-400 {
+  font-family: "ZenOldMincho", serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ZenOldMincho";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../font/ZenOldMincho-500.woff2") format("woff2");
+}
+.ZenOldMincho-500 {
+  font-family: "ZenOldMincho", serif;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ZenOldMincho";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("../font/ZenOldMincho-600.woff2") format("woff2");
+}
+.ZenOldMincho-600 {
+  font-family: "ZenOldMincho", serif;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "ZenOldMincho";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../font/ZenOldMincho-700.woff2") format("woff2");
+}
+.ZenOldMincho-700 {
+  font-family: "ZenOldMincho", serif;
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "ZenOldMincho";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url("../font/ZenOldMincho-900.woff2") format("woff2");
+}
+.ZenOldMincho-900 {
+  font-family: "ZenOldMincho", serif;
+  font-weight: 900;
+}
+
+/*  */
+
+h3.ZenOldMincho {
+  font-size: clamp(2.4rem, 3.6vw, 4.8rem);
+  line-height: 1.6;
+  font-family: "ZenOldMincho", sans-serif;
+  font-weight: 900;
+}

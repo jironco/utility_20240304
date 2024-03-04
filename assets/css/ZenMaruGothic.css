@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "ZenMaruGothic";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url("../font/ZenMaruGothic-300.woff2") format("woff2");
+}
+.ZenMaruGothic-300 {
+  font-family: "ZenMaruGothic", sans-serif;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "ZenMaruGothic";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../font/ZenMaruGothic-400.woff2") format("woff2");
+}
+.ZenMaruGothic-400 {
+  font-family: "ZenMaruGothic", sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ZenMaruGothic";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../font/ZenMaruGothic-500.woff2") format("woff2");
+}
+.ZenMaruGothic-500 {
+  font-family: "ZenMaruGothic", sans-serif;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ZenMaruGothic";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../font/ZenMaruGothic-700.woff2") format("woff2");
+}
+.ZenMaruGothic-700 {
+  font-family: "ZenMaruGothic", sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ZenMaruGothic";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url("../font/ZenMaruGothic-900.woff2") format("woff2");
+}
+.ZenMaruGothic-900 {
+  font-family: "ZenMaruGothic", sans-serif;
+  font-weight: 900;
+}
+
+/*  */
+
+h3.ZenMaruGothic {
+  font-size: clamp(2.4rem, 3.6vw, 4.8rem);
+  line-height: 1.6;
+  font-family: "ZenMaruGothic", sans-serif;
+  font-weight: 900;
+}

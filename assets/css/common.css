@@ -1,0 +1,285 @@
+html {
+  font-size: 62.5%;
+}
+body {
+font-size: 1.6rem;
+color: #191919;
+background: #f3f3f3;
+}
+
+/* ========== ========== ========== ========== ========== */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a:link,
+a:visited {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+a:hover {
+  color: #7b13f8;
+  text-decoration: none;
+  opacity: 0.84;
+}
+
+a:link img,
+a:visited img {
+  opacity: 1;
+  transition: all .2s;
+}
+
+a img:hover {
+  opacity: 0.92;
+}
+/* ========== ========== ========== ========== ========== */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-feature-settings: "palt";
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0 0 6px;
+
+}
+
+h1,
+h2,
+h3 {
+  font-size: clamp(2.1rem, 2.1vw, 2.4rem);
+}
+
+h2 {
+  margin-bottom: 24px;
+}
+
+
+h4,
+h5 {
+  font-size: 1.3rem;
+  color: #b3b3b3;
+  font-weight: 400;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span {
+  font-weight: 400;
+  font-size: clamp(1.5rem, 1.8vw, 2.4rem);
+  letter-spacing: 0;
+  display: block;
+}
+
+p  {
+  font-size: clamp(1.5rem, 2.1vw, 3.0rem);
+  line-height: 1.5;
+  padding: 0 0 12px;
+  margin: 0;
+  text-align: justify;
+}
+
+/* ****** ****** ****** ****** ****** ****** */
+
+body {
+  /* background-image: url('../images/24px.png');
+  background-repeat: repeat; */
+  text-align: center;
+
+  /* display: grid;
+  grid-gap: 12px;
+  grid-template-columns: 1fr; */
+}
+
+/* @media (min-width: 600px) {
+  body {
+    grid-template-columns: 300px 1fr;
+  }
+} */
+
+/* header {
+  z-index: 1000;
+  position: fixed;
+  background: #f3f3f3;
+  width: 100%;
+  height: 72px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 12px 0 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 24px;
+}
+
+@media (min-width: 600px) {
+  header {
+    width: 300px;
+    height: auto;
+  }
+  header nav ul {
+    margin: 0;
+    text-align: left;
+  }
+  header nav ul li {
+    display: block;
+  }
+} */
+
+
+
+/* main {
+  display: block;
+  width: clamp(280px, 90vw, 800px);
+  margin: 0 auto;
+  padding: 24px 0 0;
+} */
+
+main {
+  width: clamp(300px, 90vw, 800px);
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: 1fr;
+
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  main {
+    grid-template-columns: 200px 1fr;
+  }
+}
+
+nav {
+  z-index: 1000;
+  position: fixed;
+  background: #f3f3f3;
+  padding: 12px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 12px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+
+@media (min-width: 600px) {
+  nav {
+    width: 200px;
+    height: auto;
+  }
+  nav ul {
+    margin: 0;
+    text-align: left;
+  }
+  nav ul li {
+    display: block;
+  }
+}
+
+
+/*  */
+.Wrapper {
+  /* width: clamp(280px, 90vw, 800px); */
+  text-align: left;
+  margin: 0 auto;
+  padding: 24px 0 0;
+  border-top: #808080 2px solid;
+}
+
+/* ****** ****** ****** ****** ****** ****** */
+
+/* font family: Sub Set */
+#font-family h3 {
+  margin: 48px 0 24px;
+  padding: 6px 0 0;
+  border-top: 2px solid #ddd;
+}
+
+.IBMPlexSansJP    { font-family: "IBMPlexSansJP";}
+.NotoSansJP       { font-family: "NotoSansJP";}
+.NotoSerifJP      { font-family: "NotoSerifJP";}
+.SawarabiGothic   { font-family: "SawarabiGothic";}
+.ShipporiMinchoB1 { font-family: "ShipporiMinchoB1";}
+.ZenKakuGothicNew { font-family: "ZenKakuGothicNew";}
+.ZenMaruGothic    { font-family: "ZenMaruGothic";}
+.ZenOldMincho     { font-family: "ZenOldMincho";}
+
+.w-100 { font-weight: 100;}
+.w-200 { font-weight: 200;}
+.w-300 { font-weight: 300;}
+.w-400 { font-weight: 400;}
+.w-500 { font-weight: 500;}
+.w-600 { font-weight: 600;}
+.w-700 { font-weight: 700;}
+.w-800 { font-weight: 800;}
+.w-900 { font-weight: 900;}
+
+/*  */
+.sample-pre, .sample-html, .sample-css {
+  text-align: left;
+  font-size: clamp(1.3rem, 1.5vw, 1.8rem);
+  border-radius: 6px;
+  margin: 1px 0;
+  padding: 12px;
+}
+
+.sample-pre {
+  background: #eaeaea;
+}
+
+.sample-html,
+.sample-css
+ {
+  background: #ddd;
+}
+/* 
+.sample-html {
+  color: #ddd;
+}
+
+.sample-css {
+  color: #ccc;
+} */
+
+
+/* font size */
+
+/* color */
+
+.color-title {
+ border-top: 2px solid #bbb; 
+ padding: 6px 0;
+}
+
+.color-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+  margin: 0 0 24px;
+}
+.color-box div {
+  padding: 12px 6px;
+}
+
+.color-box .color-pu {
+  text-decoration: underline;
+}

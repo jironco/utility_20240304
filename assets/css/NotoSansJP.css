@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: url("../font/NotoSansJP-100.woff2") format("woff2");
+}
+.NotoSansJP-100 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src: url("../font/NotoSansJP-200.woff2") format("woff2");
+}
+.NotoSansJP-200 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url("../font/NotoSansJP-300.woff2") format("woff2");
+}
+.NotoSansJP-300 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../font/NotoSansJP-400.woff2") format("woff2");
+}
+.NotoSansJP-400 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("../font/NotoSansJP-500.woff2") format("woff2");
+}
+.NotoSansJP-500 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("../font/NotoSansJP-600.woff2") format("woff2");
+}
+.NotoSansJP-600 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../font/NotoSansJP-700.woff2") format("woff2");
+}
+.NotoSansJP-700 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("../font/NotoSansJP-800.woff2") format("woff2");
+}
+.NotoSansJP-800 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url("../font/NotoSansJP-900.woff2") format("woff2");
+}
+.NotoSansJP-900 {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 900;
+}
+
+/*  */
+
+h3.NotoSansJP {
+  font-size: clamp(2.4rem, 3.6vw, 4.8rem);
+  line-height: 1.6;
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 900;
+}
